@@ -1,7 +1,7 @@
 ---
 - name: Retrieve vMX-1 interfaces configuration
   hosts: vMX-1
-  roles:
+  collections:
     - Juniper.junos
   connection: local
   gather_facts: no
